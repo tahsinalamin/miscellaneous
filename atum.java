@@ -36,7 +36,6 @@ class helper{
                 }
             }
         }
-        
         return substrings ;
     }
 }
@@ -44,7 +43,7 @@ class helper{
 
 public class atum{
     public static void main(String args[]){
-        String a = "GCATGCCGGTTACCTAAGGATGGGTTCAAAATAGCGG";
+        String a = "GCATGCCGGTTACCTAAGGATGGGTTCAAAATAGCGG"; //input string
         ArrayList<String> res = new ArrayList<String>();
         res = helper.subsequence(a);
         System.out.println(res);
