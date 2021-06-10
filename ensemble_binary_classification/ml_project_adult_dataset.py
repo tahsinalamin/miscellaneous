@@ -274,9 +274,3 @@ print(sklearn.metrics.accuracy_score(Y, model7.predict(X)))
 
 print("Naive Bayes Accuracy on Test DataSet:")
 print(sklearn.metrics.accuracy_score(Y, model8.predict(X)))
-
-
-
-
-
-
